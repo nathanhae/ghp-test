@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TestComponent = () => {
+const TestComponent = ({ name }) => {
   return (
     <div>
-      Hello World!
+      Hello, {name}!
     </div>
   );
 };

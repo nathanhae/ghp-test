@@ -8,5 +8,7 @@ export default {
 const Template = (args) => <TestComponent {...args} />;
 
 export const Default = {
-  args: { },
+  args: {
+    name: 'Nathan',
+  },
 };
